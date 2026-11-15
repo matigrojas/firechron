@@ -1,0 +1,16 @@
+# Tema Firechron: grafito espacial neutro + acentos (amarillo #E2F538, coral #FF8A65)
+[theme]
+base = "dark"
+primaryColor = "#E2F538"
+backgroundColor = "#0E1117"
+secondaryBackgroundColor = "#1C212B"
+textColor = "#FFFFFF"
+linkColor = "#E2F538"
+borderColor = "#30363D"
+baseRadius = "10px"
+
+[client]
+toolbarMode = "minimal"
+
+[server]
+maxUploadSize = 50

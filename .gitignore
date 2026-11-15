@@ -1,0 +1,17 @@
+# Datos pesados: no van al repo (se regeneran con scripts/)
+/Sudamerica/
+/data/
+/logs/
+.duckdb_tmp/
+# app/data/app_data.parquet (~36 MB) SÍ va al repo
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+
+# archivo que genera el notebook
+mlp_notebook.py
+
+# reportes de usuarios del buzón (no van al repo)
+app/data/reportes.csv
+app/data/cache_noticias.json
